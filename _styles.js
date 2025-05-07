@@ -8,14 +8,14 @@ const _styles = {
   cardFontFamily: "Poppins",
 
   // App Styles
-  appBorderRadius: "32px", // px value
+  appBorderRadius: "8px", // px value
   appPadding: "6px", // px value
   appBackgroundImage: "url(../images/transparent-image.png)", // image must go in images folder
   appBackgroundColor: "rgba(62, 115, 84, 0.93)", // rgba value https://rgbcolorpicker.com
 
   //  Header Styles
   headerDisplay: "flex", // "none" to hide header or "flex" to show header
-  headerBorderRadius: "32px", // px value
+  headerBorderRadius: "8px", // px value
   headerMarginBottom: "6px", // px value
   headerPadding: "25px", // px value
   headerBackgroundColor: "rgba(0, 0, 0, 0)", // rgba value https://rgbcolorpicker.com/
