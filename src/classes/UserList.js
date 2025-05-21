@@ -47,7 +47,7 @@ export default class UserList {
 					userColor: lsUser.userColor,
 				});
 				lsUser.tasks.map((task) => {
-					const newTask = user.addTask(new Task(task.description));
+					const newTask = new Task(task.description);
 					this.totalTasks++;
 					if (task.completionStatus) {
 						newTask.setCompletionStatus(task.completionStatus);
@@ -55,6 +55,9 @@ export default class UserList {
 					}
 					if (task.focusStatus) {
 						newTask.setFocusStatus(task.focusStatus);
+					}
+					if(newTask.completionStatus === false){
+						user.addTask(newTask)
 					}
 				});
 				userList.push(user);
