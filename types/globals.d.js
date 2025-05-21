@@ -49,6 +49,7 @@
  * @property {string} taskFocusFontColor - The focus task font color
  * @property {string} taskFocusBackgroundColor - The focus task background color
  * @property {string} taskFocusBorderRadius - The focus task border radius
+ * @property {string} taskFocusFontWeight - The focus task font weight
  */
 
 /**

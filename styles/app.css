@@ -89,7 +89,8 @@
 .task.focus {
 	background-color: var(--task-focus-background-color, #aaaaaa);
 	color: var(--task-focus-font-color, #111111);
-	border-radius: var(--task-focus-boarder-radius, 8px);
+	border-radius: var(--task-focus-boarder-radius, 2px);
+	font-weight: var(--task-focus-font-weight, normal);
 }
 .done {
 	color: var(--task-done-font-color, #aaaaaa);

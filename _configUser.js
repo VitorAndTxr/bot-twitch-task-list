@@ -114,18 +114,18 @@ const _userConfig = {
     PTBR: {
       addTask: 'Tarefa(s) {message} acidicionada(s)!',
       editTask: 'Tarefa {message} atualizada(s)!',
-      finishTask: 'Bom trabalho ao completar {message}!',
+      finishTask: 'Finalmente você completou a tarefa {message} hein? Achei que ia ficar ai para sempre 👀 Parabéns, já pode comemorar!! 🥳🎉 ',
       deleteTask: 'Tarefa(s) {message} foi excluída!',
       deleteAll: "Todas as suas tarefas foram excluídas!",
       focusTask: 'Priorizando o seu foco na tarefa {message}!',
       check: 'Sua(s) tarefa(s): {message}',
-      help: "Tente os comandos: !add !editar !feito !excluir !check",
+      help: "Tente os comandos: !add !edit !done !focus !remove !check",
       additional:
-        "Jujoco é o criador desse bot, veja a Twitch dele em: https://www.twitch.tv/Jujoco_Dev",
+        "Jujoco é o criador desse bot de task, veja a Twitch dele em: https://www.twitch.tv/Jujoco_Dev",
       maxTasksAdded:
-        "Você chegou ao número máximo de tarefas, tente deletar tarefas antigas.",
-      noTaskFound: "Parece que essa tarefa não existe! Tente addicionar uma nova!",
-      invalidCommand: "Comando inválido: {message}. Tente !ajuda",
+        "Você chegou ao número máximo de tarefas, tente deletar tarefas antigas usando !clearDone.",
+      noTaskFound: "Parece que essa tarefa não existe! Tente adicionar uma nova!",
+      invalidCommand: "Comando inválido: {message}. Tente !help",
     },
   },
 };

@@ -19,7 +19,7 @@ const _styles = {
   headerMarginBottom: "6px", // px value
   headerPadding: "25px", // px value
   headerBackgroundColor: "rgba(0, 0, 0, 0)", // rgba value https://rgbcolorpicker.com/
-  headerFontSize: "16px", // px value
+  headerFontSize: "28px", // px value
   headerFontColor: "rgb(255, 238, 205)", // hex value
   headerFontWeight: "normal", // "normal", "lighter", "bold"
 
@@ -43,7 +43,8 @@ const _styles = {
   taskDoneFontStyle: "italic", // "italic" or "normal"
   taskDoneTextDecoration: "line-through", // "line-through" or "none"
 
-  taskFocusFontColor: "#111111", // hex value
-  taskFocusBackgroundColor: "rgba(255, 255, 255, 0.7)", // rgba value https://rgbcolorpicker.com/
-  taskFocusBorderRadius: "8px", // hex value
+  taskFocusFontColor: "rgb(255, 238, 205)", // hex value
+  taskFocusFontWeight: "400",
+  taskFocusBackgroundColor: "rgba(168, 201, 180, 0)", // rgba value https://rgbcolorpicker.com/
+  taskFocusBorderRadius: "0px", // hex value
 };
